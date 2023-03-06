@@ -1,0 +1,377 @@
+body{
+    background-color: rgb(1, 1, 1);
+}
+
+.sol img{
+    width: 300px;
+}
+.tierra img{
+    width: 50px;
+}
+     .mercurio img{
+        width: 15px;
+     }
+     .venus img{
+        width: 100%;
+     }
+     .marte img{
+        width: 40px;
+     }
+     .jupiter img{
+        width: 90px;
+     }
+     .saturno img{
+        width: 200px;
+     }
+     .urano img{
+        width: 90px;
+     }
+     .neptuno img{
+        width: 50px;
+     }
+     .asteroide img{
+        width: 20px;
+     }
+     .luna img{
+        width: 20px;
+     }
+     .asteroide1 img{
+        width: 20px;
+     }
+     .asteroide2 img{
+        width: 20px;
+     }
+     .asteroide3 img{
+        width: 20px;
+     }
+     .asteroide4 img{
+        width: 20px;
+     }
+     .asteroide5 img{
+        width: 20px;
+     }
+     .asteroide6 img{
+        width: 20px;
+     }
+     .asteroide7 img {
+            width: 150px;
+    }
+    .asteroide8 img {
+        width: 150px;
+}
+.asteroide9 img {
+    width: 150px;
+}
+#sol{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+    animation: rotacion 30s infinite linear;
+}
+#tierra{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 40px;
+    top: 325px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+#mercurio{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 200px;
+    top: 240px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+
+
+#luna{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 30px;
+    top: 310px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+#asteroide{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 150px;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+#asteroide2{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 300px;
+    top: 300px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+#asteroide1{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 300px;
+    top: 500px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+#asteroide3{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 150px;
+    top: 450px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+#asteroide4{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 100px;
+    top: 600px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+#asteroide5{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 0;
+    top: 500px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+#asteroide6{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 250px;
+    top: 650px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(1.75);
+}
+
+#asteroide7{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 250px;
+    top: 400px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(2.75);
+}
+#asteroide8{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 250px;
+    top: 100px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(2.75);
+}
+#asteroide9{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 250px;
+    top: 650px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+    filter: brightness(2.75);
+}
+#venus{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+    left: 0;
+    top: 280px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+#marte{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 115px;
+    left: 0;
+    top: 370px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+#jupiter{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    top: 390px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+
+
+#saturno{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 70px;
+    top: 490px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+#urano{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    top: 540px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+#neptuno{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    padding-left: 90px;
+    top: 630px;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+    animation: traslacion 20s linear infinite;
+}
+
+@keyframes rotacion{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}
+
+}
+@keyframes traslacion {
+    0%{z-index: 1;}
+    25%{left: 950px;}
+    50%{left: 1900px;}
+    51%{z-index: -1;}
+    75%{left: 950px;}
+    100%{left: 0; z-index: -1;}
+        
+}
+@keyframes sombra {
+    0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+        
+}
